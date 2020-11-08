@@ -7,10 +7,10 @@ The goal of this exercise is to use Terraform to provision an AWS Autoscaling Gr
 
 ### How to use
 
-### Pre task
+#### Pre task
 Before applying the terraform configuration make sure the VPC default group exists in the selected AWS region. Also "webservers" key pairs should be in place.
 
-### Applying 
+#### Applying 
 
 After applying you get a SUCCESS response with the DNS name of your load balancer to connect to the application.
 ```bash
@@ -23,7 +23,7 @@ ALB_DNS_Name = terraform-autosg-150166198.us-east-1.elb.amazonaws.com
 ```
 Application path is "index.html". 
 
-### Testing
+#### Testing
 ```bash
 $ curl -I http://terraform-autosg-150166198.us-east-1.elb.amazonaws.com/index.html
 HTTP/1.1 200 OK
@@ -37,7 +37,6 @@ Last-Modified: Sun, 08 Nov 2020 19:38:46 GMT
 ETag: "90-5b39d981b0aeb"
 Accept-Ranges: bytes
 ```
-
 
 ## Authors
 
