@@ -12,7 +12,7 @@ Before applying the terraform configuration make sure the VPC default group exis
 
 #### Applying 
 
-After applying you get a SUCCESS response with the DNS name of your load balancer to connect to the application.
+After applying you should get a SUCCESS response with the DNS name of your load balancer to connect to the application.
 ```bash
 
 Apply complete! Resources: 9 added, 0 changed, 0 destroyed.
