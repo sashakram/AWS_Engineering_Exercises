@@ -21,7 +21,7 @@ Outputs:
 
 ALB_DNS_Name = terraform-autosg-150166198.us-east-1.elb.amazonaws.com
 ```
-Application path is "index.html". 
+Application path is "index.html". You should transparently specify the path "index.html"
 
 #### Testing
 ```bash
